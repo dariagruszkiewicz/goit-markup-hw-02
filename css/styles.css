@@ -3,13 +3,14 @@ h1 {
 
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1,36;
   letter-spacing: 0.06em;
   text-align: center;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #212121;
 }
 
 .logo {
@@ -17,7 +18,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
   text-decoration: none;
   color: #000000;
 }
@@ -31,23 +32,22 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   letter-spacing: 0.02em;
 }
 
-.header-address-link {
+.header-contacts-link {
   color: #757575;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14px;
   letter-spacing: 0.02em;
 }
 
-button {
+.main-button {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
+  line-height: 1,88;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -59,30 +59,98 @@ button {
 }
 
 .second-section-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   letter-spacing: 0.03em;
-
-  color: #212121;
 }
 
 .second-section-description {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,7;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 .subtitle {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+}
+
+.portfolio-button-list {
+  font-weight: 500;
+  line-height: 1,6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+}
+
+.portfolio-button-list:hover,
+.portfolio-button-list:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.portfolio-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-desctiption {
+  line-height: 1,88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.employee-names {
+  font-weight: 500;
+  line-height: 1,18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.employee-position {
+  line-height: 1,18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+footer {
+  background-color: #2f303a;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-contacts-link-email {
+  text-decoration: underline;
+}
+
+.logo-back {
+  color: #ffffff;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus,
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: #2196f3;
+}
+
+ul {
+  list-style-type: none;
 }
